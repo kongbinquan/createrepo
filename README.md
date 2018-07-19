@@ -6,7 +6,8 @@
 
 > It looks more like being a file server
 
-===============================*============================================
+==============================Dividing line=====================================
+
 * The system is centos:7 basic image, installed nginx-1.9.9 createrepo 0.9.9
 
 # install 
