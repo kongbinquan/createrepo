@@ -23,8 +23,6 @@ However, you can change the page by modifying or deleting the header and bottom 
 
 <table><tr><td bgcolor=#FF4500> note: </td></tr></table>
 
->> When you add a file under the host's /data/mirrors/wwwroot/, it will run createrepo -update /data/wwwroot/, /data/wwwroot/ because it is monitored by the supervisor
-
->> It does not take the initiative to pull or synchronize other mirrors
-
->> It looks more like being a file server
+>>When you add a file under the host's /data/mirrors/wwwroot/, it will run createrepo -update /data/wwwroot/, /data/wwwroot/ because it is monitored by the supervisor
+> It does not take the initiative to pull or synchronize other mirrors
+> It looks more like being a file server
