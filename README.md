@@ -12,3 +12,7 @@ Among them, modify the port and server_name in the compose file to change the ng
       - NGINX_PORT=80
       - SERVER_NAME=localhost
 ```      
+
+If nothing unexpected, you will see the following
+
+![ok](https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/ok.png)
