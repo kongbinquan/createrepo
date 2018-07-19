@@ -1,3 +1,12 @@
+<table><tr><td bgcolor=#FF4500> note: </td></tr></table>
+
+> When you add a file under the host's /data/mirrors/wwwroot/, it will run createrepo -update /data/wwwroot/, /data/wwwroot/ because it is monitored by the supervisor
+
+> It does not take the initiative to pull or synchronize other mirrors
+
+> It looks more like being a file server
+
+=================================================================*=======================================================================
 * The system is centos:7 basic image, installed nginx-1.9.9 createrepo 0.9.9
 
 # install 
@@ -19,10 +28,3 @@ If nothing unexpected, you will see the following
 However, you can change the page by modifying or deleting the header and bottom html files under /data/wwwroot/
 
 ![ok](https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/ok.png)
-
-
-<table><tr><td bgcolor=#FF4500> note: </td></tr></table>
-
->>When you add a file under the host's /data/mirrors/wwwroot/, it will run createrepo -update /data/wwwroot/, /data/wwwroot/ because it is monitored by the supervisor
-> It does not take the initiative to pull or synchronize other mirrors
-> It looks more like being a file server
