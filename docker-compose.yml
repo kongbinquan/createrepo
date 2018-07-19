@@ -1,0 +1,14 @@
+version: '3'
+services:
+  nginx_createrepo:
+    image: nginx_createrepo
+#    build:
+#      context: https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/Dockerfile
+    container_name: nginx_createrepo
+    restart: always
+    network_mode: "host"
+    volumes:
+      - /data/mirrors:/data
+    environment:
+      - NGINX_PORT=80
+      - SERVER_NAME=localhost
