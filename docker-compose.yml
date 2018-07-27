@@ -1,7 +1,7 @@
 version: '3'
 services:
   nginx_createrepo:
-    image: marksugar/nginx_createrepo:1
+    image: marksugar/nginx_createrepo
 #    build:
 #      context: https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/Dockerfile
     container_name: nginx_createrepo
