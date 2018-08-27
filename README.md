@@ -29,3 +29,10 @@ If nothing unexpected, you will see the following
 However, you can change the page by modifying or deleting the header and bottom html files under /data/wwwroot/
 
 ![ok](https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/ok.png)
+
+
+When you modify the html, you should mount it
+```
+      - /data/mirrors/footer.html:/tmp/footer.html
+      - /data/mirrors/header.html:/tmp/header.html
+```      
