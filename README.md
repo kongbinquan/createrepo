@@ -30,7 +30,6 @@ However, you can change the page by modifying or deleting the header and bottom 
 
 ![ok](https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/ok.png)
 
-
 When you modify the html, you should mount it
 ```
       - /data/mirrors/footer.html:/tmp/footer.html
