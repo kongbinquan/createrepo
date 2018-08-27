@@ -36,7 +36,7 @@ RUN useradd ${USER} -s /sbin/nologin -M \
 	&& mkdir -p /var/tmp/nginx/{client,fastcgi,proxy,uwsgi} /etc/nginx/vhost ${WWWPATH}/ /data/logs \
 	&& curl -Lk https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/nginx.conf -o /etc/nginx/nginx.conf \
 	&& curl -Lk https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/footer.html -o /tmp/footer.html \
-	&& curl -Lk https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/header.html -o /tmp//header.html \
+	&& curl -Lk https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/header.html -o /tmp/header.html \
 	&& curl -Lk https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/supervisord.conf -o /etc/supervisord.conf \
 	&& echo -e "listen 80;\nserver_name localhost;" > /etc/nginx/vhost/ps.conf \
 	&& echo -e "listen \${NGINX_PORT};\nserver_name \${SERVER_NAME};" > /etc/nginx/vhost/ps.env \
