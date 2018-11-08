@@ -12,7 +12,7 @@
 
 # install 
 ```
-curl -Lk https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/install_start.sh|bash
+curl -Lk https://raw.githubusercontent.com/kongbinquan/docker-createrepo/master/install_start.sh|bash
 ```
 
 This script will create the /data/mirrors directory and launch the compose file after downloading
@@ -28,7 +28,7 @@ If nothing unexpected, you will see the following
 
 However, you can change the page by modifying or deleting the header and bottom html files under /data/wwwroot/
 
-![ok](https://raw.githubusercontent.com/LinuxEA-Mark/docker-createrepo/master/ok.png)
+![ok](https://raw.githubusercontent.com/kongbinquan/docker-createrepo/master/ok.png)
 
 When you modify the html, you should mount it in compose.yaml
 ```
